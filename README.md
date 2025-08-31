@@ -2,8 +2,6 @@
 
 This computer vision project detects road lane lines from a dashcam driving video using traditional image processing techniques in OpenCV. It simulates a basic lane-following system, which is an essential component of autonomous driving.
 
----
-
 ## 🎥 Input vs Output Video
 
 ### 🔹 Original Input Video  
@@ -29,48 +27,7 @@ This computer vision project detects road lane lines from a dashcam driving vide
 5. Apply **Hough Line Transform** to detect straight lines
 6. **Average and extrapolate** the left/right lane lines
 7. Overlay detected lanes onto the original frame
-
----
-
-## 🧠 Technologies Used
-
-- Python 3
-- OpenCV
-- NumPy
-
----
-
-## 📦 Requirements
-
-```bash
-opencv-python
-numpy
-```
-
-> Install them using:  
-> `pip install -r requirements.txt`
-
----
-
-## 📁 Project Structure
-
-| File                          | Description                                           |
-|-------------------------------|-------------------------------------------------------|
-| `lane_detection.py`           | Main script that processes the video                 |
-| `solidWhiteRight.mp4`         | Input driving video                                  |
-| `lane_detected_output.mp4`    | Output video with detected lanes                     |
-| `requirements.txt`            | Python libraries used                                |
-| `README.md`                   | Project documentation                                |
-
----
-
-## 🚀 How to Run
-
-```bash
-pip install -r requirements.txt
-python lane_detection.py
-```
-
+   
 ---
 
 ## 🔭 Future Enhancements
@@ -79,13 +36,6 @@ python lane_detection.py
 - Integrate **real-time webcam lane detection**
 - Use **color masks** to detect yellow lanes better
 - Deploy in **embedded systems or mobile devices**
-
----
-
-## 👨‍💻 Author
-
-**Muhammad Rayan Shahid**  
-AI & ML Enthusiast | [LinkedIn](https://www.linkedin.com/in/muhammadrayanshahid/) | [GitHub](https://github.com/RayanAIX)
 
 ---
 
